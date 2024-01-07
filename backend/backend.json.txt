@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1",
+    "image": "C:/Users/DELL/Desktop/projet-html/images/products/6d85d14d-6c2a-409b-a5dd-f8928a908040.jpg",
+    "name": "",
+    "Type":"",
+    "rating": {
+      "stars": 4.5,
+      "count": 87
+    },
+    "priceCents": 1090,
+    "keywords": [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+{
+    "id": "2",
+    "image": "C:/Users/DELL/Desktop/projet-html/images/products/058287b7-156c-4edc-ab90-a608e09248b8.jpg",
+    "name": "",
+     "Type":"",
+    "rating": {
+      "stars": 4.5,
+      "count": 87
+    },
+    "priceCents": 1090,
+    "keywords": [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  
+},
+{
+    "id": "3",
+    "image": "C:/Users/DELL/Desktop/projet-html/images/products/a6271f5c-c292-42d8-aec8-9c20f683ab25.jpg",
+    "name": "",
+     "Type":"",
+    "rating": {
+      "stars": 4.5,
+      "count": 87
+    },
+    "priceCents": 1090,
+    "keywords": [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  }
+
+
+
+]
