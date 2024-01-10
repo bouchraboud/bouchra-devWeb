@@ -27,9 +27,9 @@
         <li><a href="">product</a></li>
         <li><a href="">contact</a></li>
         <li>
-          <a href="#" class="store">
+          <a href="cart.html" class="store">
             <i class="fas fa-shopping-cart"></i>
-            <span class="badge1">0</span>
+            <span class="badge1 js-cart-quantity">0</span>
           </a>
         </li>
         <li>
@@ -38,48 +38,18 @@
             <span class="badge2">0</span>
           </a>
         </li>
-
-        <button onclick="document.getElementById('createCompt').style.display='block'">login</button>
-        <li><i class="fa fa-bars"></i></li>
+          <a href="login.html" class="login">
+        <button>login</button></a>
+        
       </ul>
     </header>
-    <div id="createCompt">
-      <button class="close" onclick="closeLogin()">X</button>
-      <h1>Login</h1>
-      <form>
-      <label>Email:</label>
-      <input type="email" placeholder="email@gmail.com">
-      <label>Password:</label>
-      <input type="password" placeholder="password">
-      
-      <button type="submit" class="submitLogin">Log in</button>
-      </form>
-      
-      <div class="createAccount">
-        <p>Don't have an account?<a href="">Sign up</a></p>
-
-      </div>
-
-    </div>
+    
     
 
     
     <img src="images/backgroud.jpg" />
     <div class="main">
     <div class="products-grid js-products-grid">
-      <div class="product-container">
-        <div class="product-image-container">
-           <img class="product-image" src="${product.image}">
-        </div>   
-        <div class="product-name">
-            
-        </div>
-        <div class="product-price">
-             ${product.price}
-         </div>
-        <div>
-            <button>add to cart</button>
-        </div>
     </div>
     </div>
 
@@ -88,10 +58,7 @@
     <script src="script/products.js"></script>
     <script src="script/pottery.js"></script>
     <script>
-      function closeLogin(){
-        var login=document.getElementById("createCompt");
-        login.style.display="none";
-      }
+      
     </script>
      
   </body>

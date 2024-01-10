@@ -72,7 +72,7 @@ header .search-box{
     
     width:100%;
     height:40px;
-    border:none;
+    border:2px solid black;
     outline:none;
     background-color:white;
     border-radius:30px;
@@ -80,12 +80,12 @@ header .search-box{
     font-size:20px;
     
 
-}
+}  
 .search-box button{
  position: absolute;
  border-radius: 50%;
  background-color:rgb(9, 130, 137);
- 
+ border:2px solid;
  width:40px;
  height:40px;
  right:0px;
@@ -108,70 +108,20 @@ header .search-box{
   i{
     font-size:30px;
   }
-#createCompt{
-    
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 400px;
-    
-    position:fixed;
-    z-index:1;
-    min-width: 500px;
-    height: 40%;
-    border-radius:6px;
-    
-    
 
-    border:3px solid black;
-    overflow:auto;
-    background-color:rgba(22, 199, 164, 0.728);
-}
-#createCompt h1{
-    font-size:50px;
-    text-align: center;
-}
-form {
-    padding:20px;
-    display:flex;
-    flex-direction :column;
-    
-}
-form label{
-    font-weight:bold;
-    font-size:25px;
-}
-input {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 20px;
-}
-.close{
-    background-color:rgba(233, 247, 245, 0.712);
-    color:rgb(0, 6, 6);
-    width:30px;
-    height:30px;
-    font-size:20px;
-}
-.forgotPassword{
-    text-align: center;
-    margin-top: 10px;
-    text-decoration: underline;
-    color:blue;
-    
-}
-.submitLogin{
-    font-size:20px;
-    border-radius: 8px;
-}
+
 .main{
     margin-top:0px;
+}
+.login button{
+    margin-right:20px;
+    margin-top:15px;
+    border-radius: 8px;
+    height:30px;
+    width: 40px;
+    background-color:rgb(7, 117, 111);
+    color: aliceblue;
+    
 }
 .products-grid{
     display:grid;
@@ -244,5 +194,10 @@ input {
     font-weight:700px;
     margin-bottom:10px;
     font-size:20px;
+}
+.add-to-cart-button{
+    background-color:rgb(9, 130, 137);
+    color: aliceblue;
+    border-radius:8px;
 }
 
